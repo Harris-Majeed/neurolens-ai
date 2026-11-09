@@ -1,5 +1,16 @@
 # NeuroLens AI
 
+[![Live demo](https://img.shields.io/badge/LIVE_DEMO-VERCEL-black?style=for-the-badge&logo=vercel)](https://neurolens-ai-gold.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GITHUB-REPOSITORY-181717?style=for-the-badge&logo=github)](https://github.com/Harris-Majeed/neurolens-ai)
+[![PyTorch](https://img.shields.io/badge/PYTORCH-RESNET18-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![MONAI](https://img.shields.io/badge/MONAI-SEGRESNET_3D-1B5E20?style=for-the-badge)](https://monai.io/)
+[![FastAPI](https://img.shields.io/badge/FASTAPI-BACKEND-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Test accuracy](https://img.shields.io/badge/TEST_ACCURACY-95.64%25-2ECC71?style=for-the-badge)](docs/metrics_2d.json)
+[![Tests](https://img.shields.io/badge/TESTS-15_PASSING-2ECC71?style=for-the-badge)](tests/)
+
+> **Live preview:** [https://neurolens-ai-gold.vercel.app/](https://neurolens-ai-gold.vercel.app/)
+> The hosted page is a static preview: the benchmark scans, Grad-CAM maps, Segmentation Lab and Model Lab show results precomputed from the real models. To analyze your own scans, [run it locally](#run-it-locally).
+
 **Brain MRI classification, explainable attention maps, and 3D glioma segmentation in one research workstation.**
 
 A student research project that combines a 2D tumor classifier (ResNet18 with Grad-CAM) and a 3D glioma segmentation model (MONAI SegResNet) in a web interface, with the measured results and the weaknesses of both models shown openly.
