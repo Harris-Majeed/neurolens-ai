@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuroLens AI</title>
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/seg.css">
+  <link rel="stylesheet" href="css/lab.css">
+  <link rel="stylesheet" href="css/more.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">&#9673;</span>
+      <div>
+        <div class="brand-name" id="brandName"></div>
+        <div class="brand-sub" id="brandSub"></div>
+      </div>
+      <span class="pill accent hide-sm">RESEARCH WORKSTATION</span>
+    </div>
+    <div class="top-actions">
+      <span class="status" id="status"><span class="dot"></span><span id="statusText">Connecting...</span></span>
+      <button class="btn ghost" id="themeBtn" type="button">Light mode</button>
+      <button class="btn ghost" id="noticeBtn" type="button">Research notice</button>
+      <button class="btn primary" id="analyzeBtn" type="button">+ Analyze MRI</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <nav class="sidebar" id="nav" aria-label="Main navigation"></nav>
+    <main class="content" id="view"></main>
+  </div>
+
+  <input type="file" id="globalFile" accept="image/png,image/jpeg" hidden>
+  <div class="toast" id="toast" role="status"></div>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <h2 id="modalTitle"></h2>
+      <div id="modalBody"></div>
+      <button class="btn primary" id="modalClose" type="button">Close</button>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/overview.js"></script>
+  <script src="js/scan.js"></script>
+  <script src="js/workspace.js"></script>
+  <script src="js/segdata.js"></script>
+  <script src="js/segmentation.js"></script>
+  <script src="js/modelab.js"></script>
+  <script src="js/explain.js"></script>
+  <script src="js/docs.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/reports.js"></script>
+  <script src="js/stubs.js"></script>
+  <script src="js/boot.js"></script>
+</body>
+</html>

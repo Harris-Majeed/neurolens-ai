@@ -1,0 +1,921 @@
+{
+ "seed": 42,
+ "patients": {
+  "train": [
+   "BraTS-GLI-00320",
+   "BraTS-GLI-00077",
+   "BraTS-GLI-00807",
+   "BraTS-GLI-00715",
+   "BraTS-GLI-00646",
+   "BraTS-GLI-00403",
+   "BraTS-GLI-00296",
+   "BraTS-GLI-01532",
+   "BraTS-GLI-00251",
+   "BraTS-GLI-01280",
+   "BraTS-GLI-00099",
+   "BraTS-GLI-00095",
+   "BraTS-GLI-00271",
+   "BraTS-GLI-00628",
+   "BraTS-GLI-00679",
+   "BraTS-GLI-01450",
+   "BraTS-GLI-00084",
+   "BraTS-GLI-00579",
+   "BraTS-GLI-01275",
+   "BraTS-GLI-00638",
+   "BraTS-GLI-01335",
+   "BraTS-GLI-00816",
+   "BraTS-GLI-00019",
+   "BraTS-GLI-00464",
+   "BraTS-GLI-01281",
+   "BraTS-GLI-01112",
+   "BraTS-GLI-00451",
+   "BraTS-GLI-00620",
+   "BraTS-GLI-01105",
+   "BraTS-GLI-00269",
+   "BraTS-GLI-01194",
+   "BraTS-GLI-00283",
+   "BraTS-GLI-01151",
+   "BraTS-GLI-01120",
+   "BraTS-GLI-00778",
+   "BraTS-GLI-00124",
+   "BraTS-GLI-01356",
+   "BraTS-GLI-01514",
+   "BraTS-GLI-00359",
+   "BraTS-GLI-01191",
+   "BraTS-GLI-00230",
+   "BraTS-GLI-01664",
+   "BraTS-GLI-01016",
+   "BraTS-GLI-01156",
+   "BraTS-GLI-00561",
+   "BraTS-GLI-00201",
+   "BraTS-GLI-00131",
+   "BraTS-GLI-00658",
+   "BraTS-GLI-01008",
+   "BraTS-GLI-00233",
+   "BraTS-GLI-00292",
+   "BraTS-GLI-01344",
+   "BraTS-GLI-01163",
+   "BraTS-GLI-00478",
+   "BraTS-GLI-01174",
+   "BraTS-GLI-01143",
+   "BraTS-GLI-00606",
+   "BraTS-GLI-00787",
+   "BraTS-GLI-00207",
+   "BraTS-GLI-00504",
+   "BraTS-GLI-01509",
+   "BraTS-GLI-00479",
+   "BraTS-GLI-01362",
+   "BraTS-GLI-01193",
+   "BraTS-GLI-00795",
+   "BraTS-GLI-00631",
+   "BraTS-GLI-01080",
+   "BraTS-GLI-00156",
+   "BraTS-GLI-00663",
+   "BraTS-GLI-01062"
+  ],
+  "val": [
+   "BraTS-GLI-01237",
+   "BraTS-GLI-00789",
+   "BraTS-GLI-00191",
+   "BraTS-GLI-00610",
+   "BraTS-GLI-01060",
+   "BraTS-GLI-00613",
+   "BraTS-GLI-01438",
+   "BraTS-GLI-01226",
+   "BraTS-GLI-01355",
+   "BraTS-GLI-00412",
+   "BraTS-GLI-00780",
+   "BraTS-GLI-00724",
+   "BraTS-GLI-01519",
+   "BraTS-GLI-00774",
+   "BraTS-GLI-01293"
+  ],
+  "test": [
+   "BraTS-GLI-01233",
+   "BraTS-GLI-01157",
+   "BraTS-GLI-00401",
+   "BraTS-GLI-01459",
+   "BraTS-GLI-01426",
+   "BraTS-GLI-00263",
+   "BraTS-GLI-00134",
+   "BraTS-GLI-00314",
+   "BraTS-GLI-00444",
+   "BraTS-GLI-00466",
+   "BraTS-GLI-00184",
+   "BraTS-GLI-01204",
+   "BraTS-GLI-01197",
+   "BraTS-GLI-01374",
+   "BraTS-GLI-01499"
+  ]
+ },
+ "cases": {
+  "train": [
+   "BraTS-GLI-00320-000",
+   "BraTS-GLI-00077-000",
+   "BraTS-GLI-00807-000",
+   "BraTS-GLI-00715-000",
+   "BraTS-GLI-00646-000",
+   "BraTS-GLI-00403-000",
+   "BraTS-GLI-00296-000",
+   "BraTS-GLI-01532-000",
+   "BraTS-GLI-00251-000",
+   "BraTS-GLI-01280-000",
+   "BraTS-GLI-00099-000",
+   "BraTS-GLI-00095-000",
+   "BraTS-GLI-00271-000",
+   "BraTS-GLI-00628-000",
+   "BraTS-GLI-00679-000",
+   "BraTS-GLI-01450-000",
+   "BraTS-GLI-00084-000",
+   "BraTS-GLI-00579-000",
+   "BraTS-GLI-01275-000",
+   "BraTS-GLI-00638-000",
+   "BraTS-GLI-01335-000",
+   "BraTS-GLI-00816-000",
+   "BraTS-GLI-00019-000",
+   "BraTS-GLI-00464-000",
+   "BraTS-GLI-01281-000",
+   "BraTS-GLI-01112-000",
+   "BraTS-GLI-00451-000",
+   "BraTS-GLI-00620-000",
+   "BraTS-GLI-01105-000",
+   "BraTS-GLI-00269-000",
+   "BraTS-GLI-01194-000",
+   "BraTS-GLI-00283-000",
+   "BraTS-GLI-01151-000",
+   "BraTS-GLI-01120-000",
+   "BraTS-GLI-00778-000",
+   "BraTS-GLI-00124-000",
+   "BraTS-GLI-01356-000",
+   "BraTS-GLI-01514-000",
+   "BraTS-GLI-00359-000",
+   "BraTS-GLI-01191-000",
+   "BraTS-GLI-00230-000",
+   "BraTS-GLI-01664-000",
+   "BraTS-GLI-01016-000",
+   "BraTS-GLI-01156-000",
+   "BraTS-GLI-00561-000",
+   "BraTS-GLI-00201-000",
+   "BraTS-GLI-00131-000",
+   "BraTS-GLI-00658-000",
+   "BraTS-GLI-01008-000",
+   "BraTS-GLI-00233-000",
+   "BraTS-GLI-00292-000",
+   "BraTS-GLI-01344-000",
+   "BraTS-GLI-01163-000",
+   "BraTS-GLI-00478-000",
+   "BraTS-GLI-01174-000",
+   "BraTS-GLI-01143-000",
+   "BraTS-GLI-00606-000",
+   "BraTS-GLI-00787-000",
+   "BraTS-GLI-00207-000",
+   "BraTS-GLI-00504-000",
+   "BraTS-GLI-01509-000",
+   "BraTS-GLI-00479-000",
+   "BraTS-GLI-01362-000",
+   "BraTS-GLI-01193-000",
+   "BraTS-GLI-00795-000",
+   "BraTS-GLI-00631-000",
+   "BraTS-GLI-01080-000",
+   "BraTS-GLI-00156-000",
+   "BraTS-GLI-00663-000",
+   "BraTS-GLI-01062-000"
+  ],
+  "val": [
+   "BraTS-GLI-01237-000",
+   "BraTS-GLI-00789-000",
+   "BraTS-GLI-00191-000",
+   "BraTS-GLI-00610-000",
+   "BraTS-GLI-01060-000",
+   "BraTS-GLI-00613-000",
+   "BraTS-GLI-01438-000",
+   "BraTS-GLI-01226-000",
+   "BraTS-GLI-01355-000",
+   "BraTS-GLI-00412-000",
+   "BraTS-GLI-00780-000",
+   "BraTS-GLI-00724-000",
+   "BraTS-GLI-01519-000",
+   "BraTS-GLI-00774-000",
+   "BraTS-GLI-01293-000"
+  ],
+  "test": [
+   "BraTS-GLI-01233-000",
+   "BraTS-GLI-01157-000",
+   "BraTS-GLI-00401-000",
+   "BraTS-GLI-01459-000",
+   "BraTS-GLI-01426-000",
+   "BraTS-GLI-00263-000",
+   "BraTS-GLI-00134-000",
+   "BraTS-GLI-00314-000",
+   "BraTS-GLI-00444-000",
+   "BraTS-GLI-00466-000",
+   "BraTS-GLI-00184-000",
+   "BraTS-GLI-01204-000",
+   "BraTS-GLI-01197-000",
+   "BraTS-GLI-01374-000",
+   "BraTS-GLI-01499-000"
+  ]
+ },
+ "files": {
+  "BraTS-GLI-00320-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00320-000/BraTS-GLI-00320-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00320-000/BraTS-GLI-00320-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00320-000/BraTS-GLI-00320-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00320-000/BraTS-GLI-00320-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00320-000/BraTS-GLI-00320-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00077-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00077-000/BraTS-GLI-00077-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00077-000/BraTS-GLI-00077-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00077-000/BraTS-GLI-00077-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00077-000/BraTS-GLI-00077-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00077-000/BraTS-GLI-00077-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00807-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00807-000/BraTS-GLI-00807-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00807-000/BraTS-GLI-00807-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00807-000/BraTS-GLI-00807-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00807-000/BraTS-GLI-00807-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00807-000/BraTS-GLI-00807-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00715-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00715-000/BraTS-GLI-00715-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00715-000/BraTS-GLI-00715-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00715-000/BraTS-GLI-00715-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00715-000/BraTS-GLI-00715-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00715-000/BraTS-GLI-00715-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00646-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00646-000/BraTS-GLI-00646-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00646-000/BraTS-GLI-00646-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00646-000/BraTS-GLI-00646-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00646-000/BraTS-GLI-00646-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00646-000/BraTS-GLI-00646-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00403-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00403-000/BraTS-GLI-00403-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00403-000/BraTS-GLI-00403-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00403-000/BraTS-GLI-00403-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00403-000/BraTS-GLI-00403-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00403-000/BraTS-GLI-00403-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00296-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00296-000/BraTS-GLI-00296-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00296-000/BraTS-GLI-00296-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00296-000/BraTS-GLI-00296-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00296-000/BraTS-GLI-00296-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00296-000/BraTS-GLI-00296-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01532-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01532-000/BraTS-GLI-01532-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01532-000/BraTS-GLI-01532-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01532-000/BraTS-GLI-01532-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01532-000/BraTS-GLI-01532-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01532-000/BraTS-GLI-01532-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00251-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00251-000/BraTS-GLI-00251-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00251-000/BraTS-GLI-00251-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00251-000/BraTS-GLI-00251-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00251-000/BraTS-GLI-00251-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00251-000/BraTS-GLI-00251-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01280-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01280-000/BraTS-GLI-01280-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01280-000/BraTS-GLI-01280-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01280-000/BraTS-GLI-01280-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01280-000/BraTS-GLI-01280-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01280-000/BraTS-GLI-01280-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00099-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00099-000/BraTS-GLI-00099-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00099-000/BraTS-GLI-00099-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00099-000/BraTS-GLI-00099-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00099-000/BraTS-GLI-00099-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00099-000/BraTS-GLI-00099-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00095-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00095-000/BraTS-GLI-00095-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00095-000/BraTS-GLI-00095-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00095-000/BraTS-GLI-00095-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00095-000/BraTS-GLI-00095-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00095-000/BraTS-GLI-00095-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00271-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00271-000/BraTS-GLI-00271-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00271-000/BraTS-GLI-00271-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00271-000/BraTS-GLI-00271-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00271-000/BraTS-GLI-00271-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00271-000/BraTS-GLI-00271-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00628-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00628-000/BraTS-GLI-00628-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00628-000/BraTS-GLI-00628-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00628-000/BraTS-GLI-00628-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00628-000/BraTS-GLI-00628-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00628-000/BraTS-GLI-00628-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00679-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00679-000/BraTS-GLI-00679-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00679-000/BraTS-GLI-00679-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00679-000/BraTS-GLI-00679-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00679-000/BraTS-GLI-00679-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00679-000/BraTS-GLI-00679-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01450-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01450-000/BraTS-GLI-01450-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01450-000/BraTS-GLI-01450-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01450-000/BraTS-GLI-01450-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01450-000/BraTS-GLI-01450-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01450-000/BraTS-GLI-01450-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00084-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00084-000/BraTS-GLI-00084-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00084-000/BraTS-GLI-00084-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00084-000/BraTS-GLI-00084-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00084-000/BraTS-GLI-00084-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00084-000/BraTS-GLI-00084-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00579-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00579-000/BraTS-GLI-00579-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00579-000/BraTS-GLI-00579-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00579-000/BraTS-GLI-00579-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00579-000/BraTS-GLI-00579-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00579-000/BraTS-GLI-00579-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01275-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01275-000/BraTS-GLI-01275-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01275-000/BraTS-GLI-01275-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01275-000/BraTS-GLI-01275-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01275-000/BraTS-GLI-01275-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01275-000/BraTS-GLI-01275-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00638-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00638-000/BraTS-GLI-00638-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00638-000/BraTS-GLI-00638-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00638-000/BraTS-GLI-00638-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00638-000/BraTS-GLI-00638-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00638-000/BraTS-GLI-00638-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01335-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01335-000/BraTS-GLI-01335-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01335-000/BraTS-GLI-01335-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01335-000/BraTS-GLI-01335-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01335-000/BraTS-GLI-01335-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01335-000/BraTS-GLI-01335-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00816-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00816-000/BraTS-GLI-00816-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00816-000/BraTS-GLI-00816-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00816-000/BraTS-GLI-00816-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00816-000/BraTS-GLI-00816-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00816-000/BraTS-GLI-00816-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00019-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00019-000/BraTS-GLI-00019-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00019-000/BraTS-GLI-00019-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00019-000/BraTS-GLI-00019-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00019-000/BraTS-GLI-00019-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00019-000/BraTS-GLI-00019-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00464-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00464-000/BraTS-GLI-00464-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00464-000/BraTS-GLI-00464-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00464-000/BraTS-GLI-00464-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00464-000/BraTS-GLI-00464-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00464-000/BraTS-GLI-00464-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01281-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01281-000/BraTS-GLI-01281-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01281-000/BraTS-GLI-01281-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01281-000/BraTS-GLI-01281-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01281-000/BraTS-GLI-01281-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01281-000/BraTS-GLI-01281-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01112-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01112-000/BraTS-GLI-01112-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01112-000/BraTS-GLI-01112-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01112-000/BraTS-GLI-01112-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01112-000/BraTS-GLI-01112-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01112-000/BraTS-GLI-01112-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00451-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00451-000/BraTS-GLI-00451-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00451-000/BraTS-GLI-00451-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00451-000/BraTS-GLI-00451-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00451-000/BraTS-GLI-00451-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00451-000/BraTS-GLI-00451-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00620-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00620-000/BraTS-GLI-00620-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00620-000/BraTS-GLI-00620-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00620-000/BraTS-GLI-00620-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00620-000/BraTS-GLI-00620-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00620-000/BraTS-GLI-00620-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01105-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01105-000/BraTS-GLI-01105-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01105-000/BraTS-GLI-01105-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01105-000/BraTS-GLI-01105-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01105-000/BraTS-GLI-01105-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01105-000/BraTS-GLI-01105-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00269-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00269-000/BraTS-GLI-00269-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00269-000/BraTS-GLI-00269-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00269-000/BraTS-GLI-00269-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00269-000/BraTS-GLI-00269-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00269-000/BraTS-GLI-00269-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01194-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01194-000/BraTS-GLI-01194-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01194-000/BraTS-GLI-01194-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01194-000/BraTS-GLI-01194-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01194-000/BraTS-GLI-01194-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01194-000/BraTS-GLI-01194-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00283-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00283-000/BraTS-GLI-00283-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00283-000/BraTS-GLI-00283-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00283-000/BraTS-GLI-00283-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00283-000/BraTS-GLI-00283-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00283-000/BraTS-GLI-00283-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01151-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01151-000/BraTS-GLI-01151-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01151-000/BraTS-GLI-01151-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01151-000/BraTS-GLI-01151-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01151-000/BraTS-GLI-01151-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01151-000/BraTS-GLI-01151-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01120-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01120-000/BraTS-GLI-01120-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01120-000/BraTS-GLI-01120-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01120-000/BraTS-GLI-01120-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01120-000/BraTS-GLI-01120-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01120-000/BraTS-GLI-01120-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00778-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00778-000/BraTS-GLI-00778-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00778-000/BraTS-GLI-00778-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00778-000/BraTS-GLI-00778-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00778-000/BraTS-GLI-00778-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00778-000/BraTS-GLI-00778-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00124-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00124-000/BraTS-GLI-00124-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00124-000/BraTS-GLI-00124-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00124-000/BraTS-GLI-00124-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00124-000/BraTS-GLI-00124-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00124-000/BraTS-GLI-00124-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01356-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01356-000/BraTS-GLI-01356-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01356-000/BraTS-GLI-01356-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01356-000/BraTS-GLI-01356-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01356-000/BraTS-GLI-01356-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01356-000/BraTS-GLI-01356-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01514-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01514-000/BraTS-GLI-01514-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01514-000/BraTS-GLI-01514-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01514-000/BraTS-GLI-01514-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01514-000/BraTS-GLI-01514-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01514-000/BraTS-GLI-01514-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00359-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00359-000/BraTS-GLI-00359-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00359-000/BraTS-GLI-00359-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00359-000/BraTS-GLI-00359-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00359-000/BraTS-GLI-00359-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00359-000/BraTS-GLI-00359-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01191-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01191-000/BraTS-GLI-01191-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01191-000/BraTS-GLI-01191-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01191-000/BraTS-GLI-01191-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01191-000/BraTS-GLI-01191-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01191-000/BraTS-GLI-01191-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00230-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00230-000/BraTS-GLI-00230-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00230-000/BraTS-GLI-00230-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00230-000/BraTS-GLI-00230-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00230-000/BraTS-GLI-00230-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00230-000/BraTS-GLI-00230-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01664-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01664-000/BraTS-GLI-01664-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01664-000/BraTS-GLI-01664-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01664-000/BraTS-GLI-01664-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01664-000/BraTS-GLI-01664-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01664-000/BraTS-GLI-01664-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01016-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01016-000/BraTS-GLI-01016-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01016-000/BraTS-GLI-01016-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01016-000/BraTS-GLI-01016-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01016-000/BraTS-GLI-01016-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01016-000/BraTS-GLI-01016-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01156-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01156-000/BraTS-GLI-01156-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01156-000/BraTS-GLI-01156-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01156-000/BraTS-GLI-01156-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01156-000/BraTS-GLI-01156-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01156-000/BraTS-GLI-01156-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00561-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00561-000/BraTS-GLI-00561-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00561-000/BraTS-GLI-00561-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00561-000/BraTS-GLI-00561-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00561-000/BraTS-GLI-00561-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00561-000/BraTS-GLI-00561-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00201-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00201-000/BraTS-GLI-00201-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00201-000/BraTS-GLI-00201-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00201-000/BraTS-GLI-00201-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00201-000/BraTS-GLI-00201-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00201-000/BraTS-GLI-00201-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00131-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00131-000/BraTS-GLI-00131-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00131-000/BraTS-GLI-00131-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00131-000/BraTS-GLI-00131-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00131-000/BraTS-GLI-00131-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00131-000/BraTS-GLI-00131-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00658-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00658-000/BraTS-GLI-00658-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00658-000/BraTS-GLI-00658-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00658-000/BraTS-GLI-00658-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00658-000/BraTS-GLI-00658-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00658-000/BraTS-GLI-00658-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01008-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01008-000/BraTS-GLI-01008-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01008-000/BraTS-GLI-01008-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01008-000/BraTS-GLI-01008-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01008-000/BraTS-GLI-01008-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01008-000/BraTS-GLI-01008-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00233-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00233-000/BraTS-GLI-00233-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00233-000/BraTS-GLI-00233-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00233-000/BraTS-GLI-00233-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00233-000/BraTS-GLI-00233-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00233-000/BraTS-GLI-00233-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00292-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00292-000/BraTS-GLI-00292-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00292-000/BraTS-GLI-00292-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00292-000/BraTS-GLI-00292-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00292-000/BraTS-GLI-00292-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00292-000/BraTS-GLI-00292-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01344-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01344-000/BraTS-GLI-01344-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01344-000/BraTS-GLI-01344-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01344-000/BraTS-GLI-01344-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01344-000/BraTS-GLI-01344-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01344-000/BraTS-GLI-01344-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01163-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01163-000/BraTS-GLI-01163-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01163-000/BraTS-GLI-01163-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01163-000/BraTS-GLI-01163-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01163-000/BraTS-GLI-01163-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01163-000/BraTS-GLI-01163-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00478-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00478-000/BraTS-GLI-00478-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00478-000/BraTS-GLI-00478-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00478-000/BraTS-GLI-00478-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00478-000/BraTS-GLI-00478-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00478-000/BraTS-GLI-00478-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01174-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01174-000/BraTS-GLI-01174-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01174-000/BraTS-GLI-01174-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01174-000/BraTS-GLI-01174-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01174-000/BraTS-GLI-01174-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01174-000/BraTS-GLI-01174-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01143-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01143-000/BraTS-GLI-01143-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01143-000/BraTS-GLI-01143-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01143-000/BraTS-GLI-01143-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01143-000/BraTS-GLI-01143-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01143-000/BraTS-GLI-01143-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00606-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00606-000/BraTS-GLI-00606-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00606-000/BraTS-GLI-00606-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00606-000/BraTS-GLI-00606-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00606-000/BraTS-GLI-00606-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00606-000/BraTS-GLI-00606-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00787-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00787-000/BraTS-GLI-00787-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00787-000/BraTS-GLI-00787-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00787-000/BraTS-GLI-00787-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00787-000/BraTS-GLI-00787-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00787-000/BraTS-GLI-00787-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00207-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00207-000/BraTS-GLI-00207-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00207-000/BraTS-GLI-00207-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00207-000/BraTS-GLI-00207-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00207-000/BraTS-GLI-00207-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00207-000/BraTS-GLI-00207-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00504-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00504-000/BraTS-GLI-00504-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00504-000/BraTS-GLI-00504-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00504-000/BraTS-GLI-00504-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00504-000/BraTS-GLI-00504-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00504-000/BraTS-GLI-00504-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01509-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01509-000/BraTS-GLI-01509-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01509-000/BraTS-GLI-01509-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01509-000/BraTS-GLI-01509-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01509-000/BraTS-GLI-01509-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01509-000/BraTS-GLI-01509-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00479-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00479-000/BraTS-GLI-00479-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00479-000/BraTS-GLI-00479-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00479-000/BraTS-GLI-00479-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00479-000/BraTS-GLI-00479-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00479-000/BraTS-GLI-00479-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01362-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01362-000/BraTS-GLI-01362-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01362-000/BraTS-GLI-01362-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01362-000/BraTS-GLI-01362-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01362-000/BraTS-GLI-01362-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01362-000/BraTS-GLI-01362-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01193-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01193-000/BraTS-GLI-01193-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01193-000/BraTS-GLI-01193-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01193-000/BraTS-GLI-01193-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01193-000/BraTS-GLI-01193-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01193-000/BraTS-GLI-01193-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00795-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00795-000/BraTS-GLI-00795-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00795-000/BraTS-GLI-00795-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00795-000/BraTS-GLI-00795-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00795-000/BraTS-GLI-00795-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00795-000/BraTS-GLI-00795-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00631-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00631-000/BraTS-GLI-00631-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00631-000/BraTS-GLI-00631-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00631-000/BraTS-GLI-00631-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00631-000/BraTS-GLI-00631-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00631-000/BraTS-GLI-00631-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01080-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01080-000/BraTS-GLI-01080-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01080-000/BraTS-GLI-01080-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01080-000/BraTS-GLI-01080-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01080-000/BraTS-GLI-01080-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01080-000/BraTS-GLI-01080-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00156-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00156-000/BraTS-GLI-00156-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00156-000/BraTS-GLI-00156-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00156-000/BraTS-GLI-00156-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00156-000/BraTS-GLI-00156-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00156-000/BraTS-GLI-00156-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00663-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00663-000/BraTS-GLI-00663-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00663-000/BraTS-GLI-00663-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00663-000/BraTS-GLI-00663-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00663-000/BraTS-GLI-00663-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00663-000/BraTS-GLI-00663-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01062-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01062-000/BraTS-GLI-01062-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01062-000/BraTS-GLI-01062-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01062-000/BraTS-GLI-01062-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01062-000/BraTS-GLI-01062-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01062-000/BraTS-GLI-01062-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01237-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01237-000/BraTS-GLI-01237-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01237-000/BraTS-GLI-01237-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01237-000/BraTS-GLI-01237-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01237-000/BraTS-GLI-01237-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01237-000/BraTS-GLI-01237-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00789-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00789-000/BraTS-GLI-00789-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00789-000/BraTS-GLI-00789-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00789-000/BraTS-GLI-00789-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00789-000/BraTS-GLI-00789-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00789-000/BraTS-GLI-00789-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00191-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00191-000/BraTS-GLI-00191-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00191-000/BraTS-GLI-00191-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00191-000/BraTS-GLI-00191-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00191-000/BraTS-GLI-00191-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00191-000/BraTS-GLI-00191-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00610-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00610-000/BraTS-GLI-00610-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00610-000/BraTS-GLI-00610-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00610-000/BraTS-GLI-00610-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00610-000/BraTS-GLI-00610-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00610-000/BraTS-GLI-00610-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01060-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01060-000/BraTS-GLI-01060-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01060-000/BraTS-GLI-01060-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01060-000/BraTS-GLI-01060-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01060-000/BraTS-GLI-01060-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01060-000/BraTS-GLI-01060-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00613-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00613-000/BraTS-GLI-00613-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00613-000/BraTS-GLI-00613-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00613-000/BraTS-GLI-00613-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00613-000/BraTS-GLI-00613-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00613-000/BraTS-GLI-00613-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01438-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01438-000/BraTS-GLI-01438-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01438-000/BraTS-GLI-01438-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01438-000/BraTS-GLI-01438-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01438-000/BraTS-GLI-01438-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01438-000/BraTS-GLI-01438-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01226-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01226-000/BraTS-GLI-01226-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01226-000/BraTS-GLI-01226-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01226-000/BraTS-GLI-01226-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01226-000/BraTS-GLI-01226-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01226-000/BraTS-GLI-01226-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01355-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01355-000/BraTS-GLI-01355-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01355-000/BraTS-GLI-01355-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01355-000/BraTS-GLI-01355-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01355-000/BraTS-GLI-01355-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01355-000/BraTS-GLI-01355-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00412-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00412-000/BraTS-GLI-00412-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00412-000/BraTS-GLI-00412-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00412-000/BraTS-GLI-00412-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00412-000/BraTS-GLI-00412-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00412-000/BraTS-GLI-00412-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00780-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00780-000/BraTS-GLI-00780-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00780-000/BraTS-GLI-00780-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00780-000/BraTS-GLI-00780-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00780-000/BraTS-GLI-00780-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00780-000/BraTS-GLI-00780-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00724-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00724-000/BraTS-GLI-00724-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00724-000/BraTS-GLI-00724-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00724-000/BraTS-GLI-00724-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00724-000/BraTS-GLI-00724-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00724-000/BraTS-GLI-00724-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01519-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01519-000/BraTS-GLI-01519-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01519-000/BraTS-GLI-01519-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01519-000/BraTS-GLI-01519-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01519-000/BraTS-GLI-01519-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01519-000/BraTS-GLI-01519-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00774-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00774-000/BraTS-GLI-00774-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00774-000/BraTS-GLI-00774-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00774-000/BraTS-GLI-00774-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00774-000/BraTS-GLI-00774-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00774-000/BraTS-GLI-00774-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01293-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01293-000/BraTS-GLI-01293-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01293-000/BraTS-GLI-01293-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01293-000/BraTS-GLI-01293-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01293-000/BraTS-GLI-01293-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01293-000/BraTS-GLI-01293-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01233-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01233-000/BraTS-GLI-01233-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01233-000/BraTS-GLI-01233-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01233-000/BraTS-GLI-01233-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01233-000/BraTS-GLI-01233-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01233-000/BraTS-GLI-01233-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01157-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01157-000/BraTS-GLI-01157-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01157-000/BraTS-GLI-01157-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01157-000/BraTS-GLI-01157-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01157-000/BraTS-GLI-01157-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01157-000/BraTS-GLI-01157-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00401-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00401-000/BraTS-GLI-00401-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00401-000/BraTS-GLI-00401-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00401-000/BraTS-GLI-00401-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00401-000/BraTS-GLI-00401-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00401-000/BraTS-GLI-00401-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01459-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01459-000/BraTS-GLI-01459-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01459-000/BraTS-GLI-01459-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01459-000/BraTS-GLI-01459-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01459-000/BraTS-GLI-01459-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01459-000/BraTS-GLI-01459-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01426-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01426-000/BraTS-GLI-01426-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01426-000/BraTS-GLI-01426-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01426-000/BraTS-GLI-01426-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01426-000/BraTS-GLI-01426-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01426-000/BraTS-GLI-01426-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00263-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00263-000/BraTS-GLI-00263-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00263-000/BraTS-GLI-00263-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00263-000/BraTS-GLI-00263-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00263-000/BraTS-GLI-00263-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00263-000/BraTS-GLI-00263-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00134-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00134-000/BraTS-GLI-00134-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00134-000/BraTS-GLI-00134-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00134-000/BraTS-GLI-00134-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00134-000/BraTS-GLI-00134-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00134-000/BraTS-GLI-00134-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00314-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00314-000/BraTS-GLI-00314-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00314-000/BraTS-GLI-00314-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00314-000/BraTS-GLI-00314-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00314-000/BraTS-GLI-00314-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00314-000/BraTS-GLI-00314-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00444-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00444-000/BraTS-GLI-00444-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00444-000/BraTS-GLI-00444-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00444-000/BraTS-GLI-00444-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00444-000/BraTS-GLI-00444-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00444-000/BraTS-GLI-00444-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00466-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00466-000/BraTS-GLI-00466-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00466-000/BraTS-GLI-00466-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00466-000/BraTS-GLI-00466-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00466-000/BraTS-GLI-00466-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00466-000/BraTS-GLI-00466-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-00184-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00184-000/BraTS-GLI-00184-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00184-000/BraTS-GLI-00184-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00184-000/BraTS-GLI-00184-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00184-000/BraTS-GLI-00184-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00184-000/BraTS-GLI-00184-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01204-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01204-000/BraTS-GLI-01204-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01204-000/BraTS-GLI-01204-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01204-000/BraTS-GLI-01204-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01204-000/BraTS-GLI-01204-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01204-000/BraTS-GLI-01204-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01197-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01197-000/BraTS-GLI-01197-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01197-000/BraTS-GLI-01197-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01197-000/BraTS-GLI-01197-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01197-000/BraTS-GLI-01197-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01197-000/BraTS-GLI-01197-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01374-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01374-000/BraTS-GLI-01374-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01374-000/BraTS-GLI-01374-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01374-000/BraTS-GLI-01374-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01374-000/BraTS-GLI-01374-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01374-000/BraTS-GLI-01374-000-t2w.nii.gz"
+  },
+  "BraTS-GLI-01499-000": {
+   "seg": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01499-000/BraTS-GLI-01499-000-seg.nii.gz",
+   "t1c": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01499-000/BraTS-GLI-01499-000-t1c.nii.gz",
+   "t1n": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01499-000/BraTS-GLI-01499-000-t1n.nii.gz",
+   "t2f": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01499-000/BraTS-GLI-01499-000-t2f.nii.gz",
+   "t2w": "ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01499-000/BraTS-GLI-01499-000-t2w.nii.gz"
+  }
+ }
+}

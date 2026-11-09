@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.DS_Store
+test_data/
+frontend_old/
+*.log
+.env
+_removed_onnx/
+.pytest_cache/
+_backup_before_vercel/
+api_calls.txt
+.vscode/

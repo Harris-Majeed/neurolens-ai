@@ -1,0 +1,51 @@
+{
+ "case": "BraTS-GLI-01204-000",
+ "title": "Worst whole-tumor Dice",
+ "shape": [
+  133,
+  167,
+  139
+ ],
+ "order": "C, index = (x*Y + y)*Z + z",
+ "spacing_mm": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "orientation": "LPS",
+ "crop_lo": [
+  53,
+  45,
+  6
+ ],
+ "crop_hi": [
+  186,
+  212,
+  145
+ ],
+ "orig_shape": [
+  240,
+  240,
+  155
+ ],
+ "labels": {
+  "1": "necrotic core",
+  "2": "edema",
+  "3": "enhancing tumor"
+ },
+ "dice": {
+  "WT": 0.7341878545913006,
+  "TC": 0.9197289549126922,
+  "ET": 0.8450092994420335
+ },
+ "volumes_cm3_pred": {
+  "WT": 36.819,
+  "TC": 3.943,
+  "ET": 3.454
+ },
+ "volumes_cm3_expert": {
+  "WT": 29.807000000000002,
+  "TC": 3.731,
+  "ET": 2.998
+ }
+}

@@ -1,0 +1,35 @@
+.filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+.filters label { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
+.filters select, .filters input[type=search] { font: inherit; color: var(--text); background: var(--panel2);
+  border: 1px solid var(--line); border-radius: 9px; padding: 8px 12px; }
+.filters input[type=search] { min-width: 240px; }
+.row-actions { display: flex; gap: 14px; white-space: nowrap; }
+.src-cell { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.docs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 18px; margin-bottom: 18px; }
+.docs-grid .card { margin-bottom: 0; }
+.docs-grid a, .card a, .report a { color: var(--accent); }
+
+.report { max-width: 900px; margin: 0 auto 18px; }
+.report-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;
+  border-bottom: 1px solid var(--line); padding-bottom: 12px; margin-bottom: 14px; }
+.report h2 { margin: 20px 0 8px; font-size: 15px; }
+.report-notice { border: 1px solid var(--warn); border-radius: 10px; padding: 10px 14px; margin-bottom: 14px; font-size: 13px; }
+.report-images { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.report-images figure { margin: 0; }
+.report-images img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--line); background: #000; display: block; }
+.report-images figcaption { text-align: center; font-size: 12px; margin-top: 4px; color: var(--muted); }
+.report-result { font-size: 26px; font-weight: 700; }
+
+@media print {
+  :root, [data-theme="dark"], [data-theme="light"] {
+    --bg: #ffffff; --panel: #ffffff; --panel2: #f3f5f8; --line: #cfd6df; --text: #111111; --muted: #4b5563;
+    --accent: #0d6b62; --warn: #8a5a00; --bad: #b42318; --good: #0f7a4f;
+  }
+  .topbar, .sidebar, .no-print, .toast, .modal { display: none !important; }
+  .shell { display: block; }
+  .content { padding: 0; }
+  body { background: #ffffff; }
+  .report { max-width: none; border: 0; padding: 0; margin: 0; }
+  .report-images, .report-notice { break-inside: avoid; }
+}
