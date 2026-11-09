@@ -8,7 +8,7 @@
 [![Test accuracy](https://img.shields.io/badge/TEST_ACCURACY-95.64%25-2ECC71?style=for-the-badge)](docs/metrics_2d.json)
 [![Tests](https://img.shields.io/badge/TESTS-15_PASSING-2ECC71?style=for-the-badge)](tests/)
 
-> **Live preview:** [https://neurolens-ai-gold.vercel.app/](https://neurolens-ai-gold.vercel.app/)
+> **Live preview:** [https://neurolens-ai-gold.vercel.app/](https://neurolens-ai-gold.vercel.app/)  
 > The hosted page is a static preview: the benchmark scans, Grad-CAM maps, Segmentation Lab and Model Lab show results precomputed from the real models. To analyze your own scans, [run it locally](#run-it-locally).
 
 **Brain MRI classification, explainable attention maps, and 3D glioma segmentation in one research workstation.**
