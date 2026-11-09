@@ -106,7 +106,7 @@ def test_segmentation_demo_cases(client):
 
 def test_frontend_is_served_and_complete(client):
     r = client.get("/")
-    assert r.status_code == 200 and "NeuroLens" in r.text
+    assert r.status_code == 200 and "neurolens" in r.text.lower()
     refs = re.findall(r'(?:src|href)="((?:js/|css/)[^"]+|config\.js)"', r.text)
     assert refs, "index.html references no scripts or styles"
     for ref in refs:

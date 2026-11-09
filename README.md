@@ -1,4 +1,4 @@
-# NeuroLens AI
+# NEUROLENS AI — Brain Tumor MRI Classification & 3D Segmentation Workstation
 
 [![Live demo](https://img.shields.io/badge/LIVE_DEMO-VERCEL-black?style=for-the-badge&logo=vercel)](https://neurolens-ai-gold.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GITHUB-REPOSITORY-181717?style=for-the-badge&logo=github)](https://github.com/Harris-Majeed/neurolens-ai)
